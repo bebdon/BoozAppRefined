@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/leave_areview_activity_am1_copy_button_border_color"
+		android:width="@dimen/leave_areview_activity_am1_copy_button_border_size"/>
+
+	<corners android:radius="@dimen/leave_areview_activity_am1_copy_button_radius"/>
+
+	<solid android:color="@color/leave_areview_activity_am1_copy_button_background_color"/>
+</shape>

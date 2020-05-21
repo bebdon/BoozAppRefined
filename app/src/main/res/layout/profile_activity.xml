@@ -1,0 +1,129 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/profile_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/profile_activity_profile_constraint_layout_background_color">
+
+	<TextView
+		android:id="@+id/profile_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/profile_activity_profile_text_view_margin_top"
+		android:gravity="start"
+		android:text="@string/profile_activity_profile_text_view_text"
+		android:textColor="@color/profile_activity_profile_text_view_text_color"
+		android:textSize="@dimen/profile_activity_profile_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="149dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+	<ImageButton
+		android:id="@+id/back_btn_button"
+		android:layout_width="@dimen/profile_activity_back_btn_button_width"
+		android:layout_height="@dimen/profile_activity_back_btn_button_height"
+		android:layout_marginStart="@dimen/profile_activity_back_btn_button_margin_start"
+		android:layout_marginTop="@dimen/profile_activity_back_btn_button_margin_top"
+		android:background="?attr/selectableItemBackground"
+		android:src="@drawable/back_btn_2"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="23dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+	<ImageButton
+		android:id="@+id/settings_button"
+		android:layout_width="@dimen/profile_activity_settings_button_width"
+		android:layout_height="@dimen/profile_activity_settings_button_height"
+		android:layout_marginEnd="@dimen/profile_activity_settings_button_margin_end"
+		android:layout_marginTop="@dimen/profile_activity_settings_button_margin_top"
+		android:background="?attr/selectableItemBackground"
+		android:src="@drawable/settings"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="350dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/recent_events_constraint_layout"
+		android:layout_width="@dimen/profile_activity_recent_events_constraint_layout_width"
+		android:layout_height="@dimen/profile_activity_recent_events_constraint_layout_height"
+		android:layout_marginTop="@dimen/profile_activity_recent_events_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/user_info_constraint_layout"
+		tools:layout_editor_absoluteX="23dp"
+		tools:layout_editor_absoluteY="338dp">
+	
+		<View
+			android:id="@+id/rectangle_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/profile_activity_rectangle_constraint_layout_height"
+			android:layout_marginTop="@dimen/profile_activity_rectangle_constraint_layout_margin_top"
+			android:background="@drawable/profile_activity_rectangle_constraint_layout_background"
+			app:layout_constraintHorizontal_weight="1"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/recent_events_text_view"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="30dp"/>
+
+		<TextView
+			android:id="@+id/recent_events_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="8dp"
+			android:gravity="start"
+			android:text="@string/profile_activity_recent_events_text_view_text"
+			android:textColor="@color/profile_activity_recent_events_text_view_text_color"
+			android:textSize="@dimen/profile_activity_recent_events_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/user_info_constraint_layout"
+		android:layout_width="@dimen/profile_activity_user_info_constraint_layout_width"
+		android:layout_height="@dimen/profile_activity_user_info_constraint_layout_height"
+		android:layout_marginTop="@dimen/profile_activity_user_info_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/profile_text_view"
+		tools:layout_editor_absoluteX="110dp"
+		tools:layout_editor_absoluteY="101dp">
+	
+		<ImageView
+			android:id="@+id/ndizmdguanbn_image_view"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="@dimen/profile_activity_ndizmdguanbn_image_view_margin_end"
+			android:layout_marginStart="@dimen/profile_activity_ndizmdguanbn_image_view_margin_start"
+			android:scaleType="center"
+			android:src="@drawable/ndizmdguanbn_2"
+			app:layout_constraintHorizontal_weight="0.89"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="11dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<TextView
+			android:id="@+id/your_name_text_view"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			android:text="@string/profile_activity_your_name_text_view_text"
+			android:textColor="@color/profile_activity_your_name_text_view_text_color"
+			android:textSize="@dimen/profile_activity_your_name_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintHorizontal_weight="1"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="185dp"/>
+	</android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

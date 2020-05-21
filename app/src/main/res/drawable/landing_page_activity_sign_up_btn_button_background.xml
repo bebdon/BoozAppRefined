@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/landing_page_activity_sign_up_btn_button_radius"/>
+
+	<solid android:color="@color/landing_page_activity_sign_up_btn_button_background_color"/>
+</shape>

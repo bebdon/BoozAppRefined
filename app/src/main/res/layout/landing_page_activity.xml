@@ -1,0 +1,161 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/landing_page_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/landing_page_activity_landing_page_constraint_layout_background_color">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/sign_in_area_constraint_layout"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/landing_page_activity_sign_in_area_constraint_layout_height"
+		android:background="@color/landing_page_activity_sign_in_area_constraint_layout_background_color"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent">
+
+		<Button
+			android:id="@+id/sign_in_button"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/landing_page_activity_sign_in_button_height"
+			android:layout_marginStart="24dp"
+			android:background="?attr/selectableItemBackground"
+			android:gravity="start"
+			android:text="@string/landing_page_activity_sign_in_button_text"
+			android:textColor="@color/landing_page_activity_sign_in_button_text_color"
+			android:textSize="@dimen/landing_page_activity_sign_in_button_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/already_have_an_acco_text_view"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.533" />
+
+		<TextView
+			android:id="@+id/already_have_an_acco_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="52dp"
+			android:gravity="start"
+			android:text="@string/landing_page_activity_already_have_an_acco_text_view_text"
+			android:textColor="@color/landing_page_activity_already_have_an_acco_text_view_text_color"
+			android:textSize="@dimen/landing_page_activity_already_have_an_acco_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.461" />
+	</android.support.constraint.ConstraintLayout>
+
+	<Button
+		android:id="@+id/sign_up_btn_button"
+		android:layout_width="@dimen/landing_page_activity_sign_up_btn_button_width"
+		android:layout_height="@dimen/landing_page_activity_sign_up_btn_button_height"
+		android:layout_marginBottom="@dimen/landing_page_activity_sign_up_btn_button_margin_bottom"
+		android:background="@drawable/landing_page_activity_sign_up_btn_button_ripple"
+		android:gravity="center"
+		android:text="@string/landing_page_activity_sign_up_btn_button_text"
+		android:textColor="@color/landing_page_activity_sign_up_btn_button_text_color"
+		android:textSize="@dimen/landing_page_activity_sign_up_btn_button_text_size"
+		app:layout_constraintBottom_toTopOf="@+id/sign_in_area_constraint_layout"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:gravity="center" />
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/constraint_layout_constraint_layout"
+		android:layout_width="@dimen/landing_page_activity_constraint_layout_constraint_layout_width"
+		android:layout_height="@dimen/landing_page_activity_constraint_layout_constraint_layout_height"
+		android:layout_marginStart="@dimen/landing_page_activity_constraint_layout_constraint_layout_margin_start"
+		android:layout_marginTop="@dimen/landing_page_activity_constraint_layout_constraint_layout_margin_top"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/pass_edit_text"
+		tools:layout_editor_absoluteX="72dp"
+		tools:layout_editor_absoluteY="505dp">
+	
+		<Switch
+			android:id="@+id/rectangle_switch"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/landing_page_activity_rectangle_switch_background"
+			android:checked="true"
+			android:theme="@style/LandingPageActivityRectangleSwitchTheme"
+			android:thumbTint="@color/landing_page_activity_rectangle_switch_thumb_tint_color"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="-6dp"/>
+	
+		<TextView
+			android:id="@+id/confirm_you_are18_otext_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="@dimen/landing_page_activity_confirm_you_are18_otext_view_margin_end"
+			android:gravity="start"
+			android:textColor="@color/landing_page_activity_confirm_you_are18_otext_view_text_color"
+			android:textSize="@dimen/landing_page_activity_confirm_you_are18_otext_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="60dp"
+			tools:layout_editor_absoluteY="0dp"
+			tools:text="@string/landing_page_activity_confirm_you_are18_otext_view_text"/>
+	</android.support.constraint.ConstraintLayout>
+
+	<EditText
+		android:id="@+id/pass_edit_text"
+		android:layout_width="@dimen/landing_page_activity_pass_edit_text_width"
+		android:layout_height="@dimen/landing_page_activity_pass_edit_text_height"
+		android:layout_marginTop="@dimen/landing_page_activity_pass_edit_text_margin_top"
+		android:background="@drawable/landing_page_activity_pass_edit_text_background"
+		android:gravity="center|center_vertical"
+		android:hint="@string/landing_page_activity_pass_edit_text_hint"
+		android:inputType="text"
+		android:maxLines="1"
+		android:textColor="@color/landing_page_activity_pass_edit_text_text_color"
+		android:textColorHint="@color/color_hint_text"
+		android:textSize="@dimen/landing_page_activity_pass_edit_text_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/email_edit_text"
+		tools:layout_editor_absoluteX="72dp"
+		tools:layout_editor_absoluteY="423dp"/>
+
+	<EditText
+		android:id="@+id/email_edit_text"
+		android:layout_width="@dimen/landing_page_activity_email_edit_text_width"
+		android:layout_height="@dimen/landing_page_activity_email_edit_text_height"
+		android:layout_marginTop="@dimen/landing_page_activity_email_edit_text_margin_top"
+		android:background="@drawable/landing_page_activity_email_edit_text_background"
+		android:gravity="center|center_vertical"
+		android:hint="@string/landing_page_activity_email_edit_text_hint"
+		android:inputType="text"
+		android:maxLines="1"
+		android:textColor="@color/landing_page_activity_email_edit_text_text_color"
+		android:textColorHint="@color/color_hint_text"
+		android:textSize="@dimen/landing_page_activity_email_edit_text_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/booz_text_view"
+		tools:layout_editor_absoluteX="72dp"
+		tools:layout_editor_absoluteY="368dp"/>
+
+	<TextView
+		android:id="@+id/booz_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/landing_page_activity_booz_text_view_margin_top"
+		android:fontFamily="@font/font_hotham_freedemo"
+		android:gravity="start"
+		android:text="@string/landing_page_activity_booz_text_view_text"
+		android:textColor="@color/landing_page_activity_booz_text_view_text_color"
+		android:textSize="@dimen/landing_page_activity_booz_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="58dp"
+		tools:layout_editor_absoluteY="105dp"/>
+</android.support.constraint.ConstraintLayout>

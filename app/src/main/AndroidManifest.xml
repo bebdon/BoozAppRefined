@@ -1,0 +1,140 @@
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.company_name.booz_app_refined">
+
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<meta-data
+			android:name="com.google.android.geo.API_KEY"
+			android:value="AIzaSyCGtM2aG6Ixgik8LycOjWMM8Im5cP_4zo4"/>
+		<activity
+			android:label=""
+			android:name=".activity.EventSearchActivity"
+			android:theme="@style/EventSearchActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.FriendsSearchActivity"
+			android:theme="@style/FriendsSearchActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.ProfileSettingsActivity"
+			android:theme="@style/ProfileSettingsActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.TOFSProfileActivity"
+			android:theme="@style/ClubProfileActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.FriendsProfileActivity"
+			android:theme="@style/FriendsProfileActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.ProfileActivity"
+			android:theme="@style/ProfileActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.GetHomeSafeActivity"
+			android:theme="@style/GetHomeSafeActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.LeaveAReviewActivity"
+			android:theme="@style/LeaveAReviewActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.NotificationsActivity"
+			android:theme="@style/NotificationsActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.MyEventsActivity"
+			android:theme="@style/MyEventsActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.FriendsActivity"
+			android:theme="@style/FriendsActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.HomeActivity"
+			android:theme="@style/HomeActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.LoginActivity"
+			android:theme="@style/LoginActivityTheme"/>
+	
+		<activity
+			android:label=""
+			android:name=".activity.SignUpActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.CameoProfileActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.CamelProfileActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.RevolutionProfileActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.ArubaProfileActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.AltProfileActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.WalkaboutProfileActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.TruthProfileActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.HaloProfileActivity"
+			android:theme="@style/SignUpActivityTheme"/>
+
+		<activity
+			android:label=""
+			android:name=".activity.LandingPageActivity"
+			android:theme="@style/LandingPageActivityTheme">
+		
+			<intent-filter>
+			
+				<category android:name="android.intent.category.LAUNCHER"/>
+			
+				<action android:name="android.intent.action.MAIN"/>
+			</intent-filter>
+
+
+		</activity>
+
+	</application>
+</manifest>

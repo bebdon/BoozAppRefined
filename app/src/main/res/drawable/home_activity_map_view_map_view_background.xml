@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/home_activity_map_view_map_view_border_color"
+		android:width="@dimen/home_activity_map_view_map_view_border_size"/>
+</shape>

@@ -1,0 +1,49 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/notifications_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/notifications_activity_notifications_constraint_layout_background_color">
+
+	<TextView
+		android:id="@+id/notifications_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/notifications_activity_notifications_text_view_margin_top"
+		android:gravity="start"
+		android:text="@string/notifications_activity_notifications_text_view_text"
+		android:textColor="@color/notifications_activity_notifications_text_view_text_color"
+		android:textSize="@dimen/notifications_activity_notifications_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="93dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+	<ImageButton
+		android:id="@+id/back_btn_button"
+		android:layout_width="@dimen/notifications_activity_back_btn_button_width"
+		android:layout_height="@dimen/notifications_activity_back_btn_button_height"
+		android:layout_marginStart="@dimen/notifications_activity_back_btn_button_margin_start"
+		android:layout_marginTop="@dimen/notifications_activity_back_btn_button_margin_top"
+		android:background="?attr/selectableItemBackground"
+		android:src="@drawable/back_btn_2"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="23dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+	<View
+		android:id="@+id/notification_section_constraint_layout"
+		android:layout_width="@dimen/notifications_activity_notification_section_constraint_layout_width"
+		android:layout_height="@dimen/notifications_activity_notification_section_constraint_layout_height"
+		android:layout_marginTop="@dimen/notifications_activity_notification_section_constraint_layout_margin_top"
+		android:background="@color/notifications_activity_notification_section_constraint_layout_background_color"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/back_btn_button"
+		tools:layout_editor_absoluteX="23dp"
+		tools:layout_editor_absoluteY="94dp"/>
+</android.support.constraint.ConstraintLayout>

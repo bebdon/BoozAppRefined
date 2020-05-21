@@ -1,0 +1,213 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<color name="color_hint_text">#D0D1D5</color>
+	<color name="color_primary">#000000</color>
+	<color name="color_accent">#000000</color>
+	<color name="material_bottom_sheet_title">#0000008A</color>
+	<color name="material_bottom_sheet_item">#000000DE</color>
+	<color name="color_click_overlay">#555555</color>
+	<color name="color_primary_dark">#000000</color>
+	
+	<!-- Resources for LandingPageActivity -->
+	<color name="landing_page_activity_sign_up_btn_button_text_color">#000000</color>
+	<color name="landing_page_activity_landing_page_constraint_layout_background_color">#212122</color>
+	<color name="landing_page_activity_pass_edit_text_text_color">#000000</color>
+	<color name="landing_page_activity_rectangle_switch_active_color">#0080FF</color>
+	<color name="landing_page_activity_sign_in_area_constraint_layout_background_color">#373738</color>
+	<color name="landing_page_activity_sign_up_btn_button_background_color">#F3A701</color>
+	<color name="landing_page_activity_sign_in_button_text_color">#F3A701</color>
+	<color name="landing_page_activity_pass_edit_text_background_color">#373738</color>
+	<color name="landing_page_activity_email_edit_text_text_color">#000000</color>
+	<color name="landing_page_activity_rectangle_switch_border_color">#979797</color>
+	<color name="landing_page_activity_rectangle_switch_thumb_tint_color">#FFFFFF</color>
+	<color name="landing_page_activity_pass_edit_text_border_color">#F3A701</color>
+	<color name="landing_page_activity_confirm_you_are18_otext_view_text_color">#4A4A4C</color>
+	<color name="landing_page_activity_email_edit_text_background_color">#373738</color>
+	<color name="landing_page_activity_already_have_an_acco_text_view_text_color">#E5E5EA</color>
+	<color name="landing_page_activity_booz_text_view_text_color">#F3A701</color>
+	<color name="landing_page_activity_email_edit_text_border_color">#F3A701</color>
+	<color name="leave_areview_activity_am3_copy_button_border_color">#979797</color>
+	<color name="leave_areview_activity_am1_button_background_color">#F3A701</color>
+	<color name="leave_areview_activity_am2_copy_button_text_color">#000000</color>
+	<color name="leave_areview_activity_am3_button_background_color">#F3A701</color>
+	<color name="leave_areview_activity_am3_button_text_color">#000000</color>
+	<color name="leave_areview_activity_am1_copy_button_background_color">#F3A701</color>
+	<color name="leave_areview_activity_am3_copy_button_text_color">#000000</color>
+	<color name="leave_areview_activity_am2_copy_button_border_color">#979797</color>
+	<color name="leave_areview_activity_am1_button_text_color">#000000</color>
+	<color name="leave_areview_activity_am2_button_border_color">#979797</color>
+	<color name="leave_areview_activity_am1_button_border_color">#979797</color>
+	<color name="leave_areview_activity_am1_copy_button_border_color">#979797</color>
+	<color name="leave_areview_activity_am3_button_border_color">#979797</color>
+	<color name="leave_areview_activity_am2_copy_button_background_color">#F3A701</color>
+	<color name="leave_areview_activity_am2_button_background_color">#F3A701</color>
+	<color name="leave_areview_activity_amenities_text_view_text_color">#F3A701</color>
+	<color name="leave_areview_activity_am1_copy_button_text_color">#000000</color>
+	<color name="leave_areview_activity_am2_button_text_color">#000000</color>
+	<color name="leave_areview_activity_am3_copy_button_background_color">#F3A701</color>
+	<!-- Resources for NotificationsActivity -->
+	<color name="notifications_activity_notifications_text_view_text_color">#F3A701</color>
+	<color name="notifications_activity_back_btn_button_text_color">#000000</color>
+	<color name="notifications_activity_notifications_constraint_layout_background_color">#212122</color>
+	<color name="notifications_activity_notification_section_constraint_layout_background_color">#373737</color>
+	
+	<!-- Resources for LeaveAReviewActivity -->
+	<color name="leave_areview_activity_leave_areview_constraint_layout_background_color">#212122</color>
+	<color name="leave_areview_activity_leave_areview_text_view_text_color">#F3A701</color>
+	<color name="leave_areview_activity_back_btn_button_text_color">#000000</color>
+	<color name="leave_areview_activity_notification_section_constraint_layout_background_color">#373737</color>
+	
+	<!-- Resources for ProfileSettingsActivity -->
+	<color name="profile_settings_activity_username_text_view_text_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_four_edit_text_border_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_five_edit_text_background_color">#373738</color>
+	<color name="profile_settings_activity_profile_settings_text_view_text_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_five_edit_text_text_color">#000000</color>
+	<color name="profile_settings_activity_back_btn_button_text_color">#000000</color>
+	<color name="profile_settings_activity_rectangle_four_edit_text_text_color">#000000</color>
+	<color name="profile_settings_activity_rectangle_two_edit_text_text_color">#000000</color>
+	<color name="profile_settings_activity_rectangle_edit_text_text_color">#000000</color>
+	<color name="profile_settings_activity_phone_number_text_view_text_color">#F3A701</color>
+	<color name="profile_settings_activity_logout_button_background_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_four_edit_text_background_color">#373738</color>
+	<color name="profile_settings_activity_rectangle_edit_text_border_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_two_edit_text_border_color">#F3A701</color>
+	<color name="profile_settings_activity_edit_pic_constraint_layout_background_color">#AE212121</color>
+	<color name="profile_settings_activity_rectangle_five_edit_text_border_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_three_edit_text_border_color">#F3A701</color>
+	<color name="profile_settings_activity_email_text_view_text_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_edit_text_background_color">#373738</color>
+	<color name="profile_settings_activity_rectangle_three_edit_text_text_color">#000000</color>
+	<color name="profile_settings_activity_save_button_background_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_three_edit_text_background_color">#373738</color>
+	<color name="profile_settings_activity_password_text_view_text_color">#F3A701</color>
+	<color name="profile_settings_activity_rectangle_two_edit_text_background_color">#373738</color>
+	<color name="profile_settings_activity_profile_settings_constraint_layout_background_color">#212122</color>
+	<color name="profile_settings_activity_edit_profile_picture_button_text_color">#FFFFFF</color>
+	<color name="profile_settings_activity_logout_button_text_color">#000000</color>
+	<color name="profile_settings_activity_save_button_text_color">#000000</color>
+	<color name="profile_settings_activity_name_text_view_text_color">#F3A701</color>
+	
+	<!-- Resources for FriendsSearchActivity -->
+	<color name="friends_search_activity_friends_search_constraint_layout_background_color">#212122</color>
+	<color name="friends_search_activity_search_bar_edit_text_background_color">#373737</color>
+	<color name="friends_search_activity_search_bar_edit_text_text_color">#000000</color>
+	<color name="friends_search_activity_search_results_constraint_layout_background_color">#373737</color>
+	<color name="friends_search_activity_search_bar_edit_text_border_color">#F3A701</color>
+	<color name="friends_search_activity_back_btn_button_text_color">#000000</color>
+	
+	<!-- Resources for GetHomeSafeActivity -->
+	<color name="get_home_safe_activity_home_safe_text_view_text_color">#F3A701</color>
+	<color name="get_home_safe_activity_ads_two_constraint_layout_background_color">#373737</color>
+	<color name="get_home_safe_activity_get_home_safe_constraint_layout_background_color">#212122</color>
+	<color name="get_home_safe_activity_home_safe_area_button_background_color">#373737</color>
+	<color name="get_home_safe_activity_home_safe_area_button_text_color">#01F33A</color>
+	<color name="get_home_safe_activity_ads_constraint_layout_background_color">#373737</color>
+	
+	<!-- Resources for LoginActivity -->
+	<color name="login_activity_email_edit_text_text_color">#000000</color>
+	<color name="login_activity_login_constraint_layout_background_color">#212122</color>
+	<color name="login_activity_pass_edit_text_border_color">#F3A701</color>
+	<color name="login_activity_pass_edit_text_text_color">#000000</color>
+	<color name="login_activity_booz_text_view_text_color">#F3A701</color>
+	<color name="login_activity_login_button_background_color">#F3A701</color>
+	<color name="login_activity_email_edit_text_background_color">#373738</color>
+	<color name="login_activity_pass_edit_text_background_color">#373738</color>
+	<color name="login_activity_login_button_text_color">#000000</color>
+	<color name="login_activity_email_edit_text_border_color">#F3A701</color>
+	
+	<!-- Resources for FriendsActivity -->
+	<color name="friends_activity_back_btn_button_text_color">#000000</color>
+	<color name="friends_activity_friend_section_constraint_layout_background_color">#373737</color>
+	<color name="friends_activity_friends_constraint_layout_background_color">#212122</color>
+	<color name="friends_activity_friends_text_view_text_color">#F3A701</color>
+	<color name="friends_activity_search_btn_button_text_color">#000000</color>
+	
+	<!-- Resources for ProfileActivity -->
+	<color name="profile_activity_back_btn_button_text_color">#000000</color>
+	<color name="profile_activity_rectangle_constraint_layout_border_color">#F3A701</color>
+	<color name="profile_activity_your_name_text_view_text_color">#F3A701</color>
+	<color name="profile_activity_settings_button_text_color">#000000</color>
+	<color name="profile_activity_recent_events_text_view_text_color">#F3A701</color>
+	<color name="profile_activity_profile_text_view_text_color">#F3A701</color>
+	<color name="profile_activity_rectangle_constraint_layout_background_color">#373737</color>
+	<color name="profile_activity_profile_constraint_layout_background_color">#212122</color>
+	
+	<!-- Resources for ClubProfileActivity -->
+	<color name="club_profile_activity_club_profile_constraint_layout_background_color">#212122</color>
+	<color name="club_profile_activity_email_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_info_two_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_am1_constraint_layout_border_color">#979797</color>
+	<color name="club_profile_activity_am3_constraint_layout_border_color">#979797</color>
+	<color name="club_profile_activity_the_old_firestation_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_amenities_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_recent_events_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_info_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_address_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_leave_areview_button_text_color">#000000</color>
+	<color name="club_profile_activity_am2_constraint_layout_border_color">#979797</color>
+	<color name="club_profile_activity_phone_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_back_btn_button_text_color">#000000</color>
+	<color name="club_profile_activity_profile_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_am2_constraint_layout_background_color">#D8D8D8</color>
+	<color name="club_profile_activity_rectangle_constraint_layout_border_color">#F3A701</color>
+	<color name="club_profile_activity_am3_constraint_layout_background_color">#D8D8D8</color>
+	<color name="club_profile_activity_info_three_text_view_text_color">#F3A701</color>
+	<color name="club_profile_activity_am1_constraint_layout_background_color">#D8D8D8</color>
+	<color name="club_profile_activity_rectangle_constraint_layout_background_color">#373737</color>
+	
+	<!-- Resources for FriendsProfileActivity -->
+	<color name="friends_profile_activity_remove_friend_button_text_color">#000000</color>
+	<color name="friends_profile_activity_rectangle_constraint_layout_background_color">#373737</color>
+	<color name="friends_profile_activity_profile_text_view_text_color">#F3A701</color>
+	<color name="friends_profile_activity_friends_profile_constraint_layout_background_color">#212122</color>
+	<color name="friends_profile_activity_rectangle_constraint_layout_border_color">#F3A701</color>
+	<color name="friends_profile_activity_their_name_text_view_text_color">#F3A701</color>
+	<color name="friends_profile_activity_recent_events_text_view_text_color">#F3A701</color>
+	<color name="friends_profile_activity_back_btn_button_text_color">#000000</color>
+	
+	<!-- Resources for HomeActivity -->
+	<color name="home_activity_events_button_text_color">#000000</color>
+	<color name="home_activity_map_view_map_view_border_color">#979797</color>
+	<color name="home_activity_get_home_safe_button_background_color">#212122</color>
+	<color name="home_activity_profile_button_text_color">#000000</color>
+	<color name="home_activity_friends_button_text_color">#000000</color>
+	<color name="home_activity_notifications_button_background_color">#212122</color>
+	<color name="home_activity_get_home_safe_button_text_color">#000000</color>
+	<color name="home_activity_home_constraint_layout_background_color">#212122</color>
+	<color name="home_activity_search_edit_text_text_color">#000000</color>
+	<color name="home_activity_events_button_background_color">#212122</color>
+	<color name="home_activity_home_constraint_layout_border_color">#979797</color>
+	<color name="home_activity_notifications_button_text_color">#000000</color>
+	<color name="home_activity_search_edit_text_background_color">#87373737</color>
+	<color name="home_activity_friends_button_background_color">#212122</color>
+	<color name="home_activity_profile_button_background_color">#212122</color>
+	
+	<!-- Resources for SignUpActivity -->
+	<color name="sign_up_activity_sign_up_btn_button_text_color">#000000</color>
+	<color name="sign_up_activity_booz_text_view_text_color">#F3A701</color>
+	<color name="sign_up_activity_phone_number_edit_text_text_color">#000000</color>
+	<color name="sign_up_activity_phone_number_edit_text_background_color">#373738</color>
+	<color name="sign_up_activity_your_name_edit_text_border_color">#F3A701</color>
+	<color name="sign_up_activity_your_name_edit_text_background_color">#373738</color>
+	<color name="sign_up_activity_your_name_edit_text_text_color">#000000</color>
+	<color name="sign_up_activity_sign_up_btn_button_background_color">#F3A701</color>
+	<color name="sign_up_activity_phone_number_edit_text_border_color">#F3A701</color>
+	<color name="sign_up_activity_sign_up_constraint_layout_background_color">#212122</color>
+	
+	<!-- Resources for EventSearchActivity -->
+	<color name="event_search_activity_back_btn_button_text_color">#000000</color>
+	<color name="event_search_activity_search_bar_edit_text_border_color">#F3A701</color>
+	<color name="event_search_activity_search_bar_edit_text_text_color">#000000</color>
+	<color name="event_search_activity_search_results_constraint_layout_background_color">#373737</color>
+	<color name="event_search_activity_search_bar_edit_text_background_color">#373737</color>
+	<color name="event_search_activity_event_search_constraint_layout_background_color">#212122</color>
+	
+	<!-- Resources for MyEventsActivity -->
+	<color name="my_events_activity_my_events_section_constraint_layout_background_color">#373737</color>
+	<color name="my_events_activity_search_btn_button_text_color">#000000</color>
+	<color name="my_events_activity_back_btn_button_text_color">#000000</color>
+	<color name="my_events_activity_my_events_text_view_text_color">#F3A701</color>
+	<color name="my_events_activity_my_events_constraint_layout_background_color">#212122</color>
+</resources>

@@ -1,0 +1,57 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="colorPrimary">@color/color_primary</item>
+		<item name="colorPrimaryDark">@color/color_primary_dark</item>
+		<item name="colorAccent">@color/color_accent</item>
+	</style>
+	
+	<!-- EventSearchActivity -->
+	<style name="EventSearchActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- FriendsSearchActivity -->
+	<style name="FriendsSearchActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ProfileSettingsActivity -->
+	<style name="ProfileSettingsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ClubProfileActivity -->
+	<style name="ClubProfileActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- FriendsProfileActivity -->
+	<style name="FriendsProfileActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- ProfileActivity -->
+	<style name="ProfileActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- GetHomeSafeActivity -->
+	<style name="GetHomeSafeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- LeaveAReviewActivity -->
+	<style name="LeaveAReviewActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- NotificationsActivity -->
+	<style name="NotificationsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- MyEventsActivity -->
+	<style name="MyEventsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- FriendsActivity -->
+	<style name="FriendsActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- HomeActivity -->
+	<style name="HomeActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- LoginActivity -->
+	<style name="LoginActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- SignUpActivity -->
+	<style name="SignUpActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	
+	<!-- LandingPageActivity -->
+	<style name="LandingPageActivityTheme" parent="Theme.AppCompat.NoActionBar"/>
+	<style name="LandingPageActivityRectangleSwitchTheme">
+		<item name="colorControlActivated">@color/landing_page_activity_rectangle_switch_active_color</item>
+	</style>
+</resources>

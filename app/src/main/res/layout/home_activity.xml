@@ -1,0 +1,104 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/home_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/home_activity_home_constraint_layout_background">
+
+	<com.google.android.gms.maps.MapView
+		android:id="@+id/map_view_map_view"
+		android:layout_width="0dp"
+		android:layout_height="@dimen/home_activity_map_view_map_view_height"
+		android:background="@drawable/home_activity_map_view_map_view_background"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="0dp"
+		tools:layout_editor_absoluteY="0dp"/>
+
+	<EditText
+		android:id="@+id/search_edit_text"
+		android:layout_width="@dimen/home_activity_search_edit_text_width"
+		android:layout_height="@dimen/home_activity_search_edit_text_height"
+		android:layout_marginBottom="@dimen/home_activity_search_edit_text_margin_bottom"
+		android:layout_marginEnd="7dp"
+		android:background="@color/home_activity_search_edit_text_background_color"
+		android:gravity="center|center_vertical"
+		android:hint="@string/home_activity_search_edit_text_hint"
+		android:inputType="text"
+		android:maxLines="1"
+		android:textColor="@color/home_activity_search_edit_text_text_color"
+		android:textColorHint="@color/color_hint_text"
+		android:textSize="@dimen/home_activity_search_edit_text_text_size"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/events_button"
+		app:layout_constraintLeft_toLeftOf="parent" />
+
+	<ImageButton
+		android:id="@+id/notifications_button"
+		android:layout_width="@dimen/home_activity_notifications_button_width"
+		android:layout_height="@dimen/home_activity_notifications_button_height"
+		android:layout_marginStart="@dimen/home_activity_notifications_button_margin_start"
+		android:layout_marginTop="@dimen/home_activity_notifications_button_margin_top"
+		android:background="@drawable/home_activity_notifications_button_ripple"
+		android:src="@drawable/_201_bell"
+		app:layout_constraintLeft_toRightOf="@+id/profile_button"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="69dp"
+		tools:layout_editor_absoluteY="14dp"/>
+
+	<ImageButton
+		android:id="@+id/friends_button"
+		android:layout_width="@dimen/home_activity_friends_button_width"
+		android:layout_height="@dimen/home_activity_friends_button_height"
+		android:layout_marginBottom="@dimen/home_activity_friends_button_margin_bottom"
+		android:layout_marginEnd="@dimen/home_activity_friends_button_margin_end"
+		android:background="@drawable/home_activity_friends_button_ripple"
+		android:src="@drawable/_005_group"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="359dp"
+		tools:layout_editor_absoluteY="677dp"/>
+
+	<ImageButton
+		android:id="@+id/events_button"
+		android:layout_width="@dimen/home_activity_events_button_width"
+		android:layout_height="@dimen/home_activity_events_button_height"
+		android:layout_marginBottom="@dimen/home_activity_events_button_margin_bottom"
+		android:layout_marginEnd="@dimen/home_activity_events_button_margin_end"
+		android:background="@drawable/home_activity_events_button_ripple"
+		android:src="@drawable/_017_location_pin"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toLeftOf="@+id/friends_button"
+		tools:layout_editor_absoluteX="306dp"
+		tools:layout_editor_absoluteY="677dp"/>
+
+	<ImageButton
+		android:id="@+id/get_home_safe_button"
+		android:layout_width="@dimen/home_activity_get_home_safe_button_width"
+		android:layout_height="@dimen/home_activity_get_home_safe_button_height"
+		android:layout_marginEnd="@dimen/home_activity_get_home_safe_button_margin_end"
+		android:layout_marginTop="@dimen/home_activity_get_home_safe_button_margin_top"
+		android:background="@drawable/home_activity_get_home_safe_button_ripple"
+		android:src="@drawable/_025_home"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="350dp"
+		tools:layout_editor_absoluteY="14dp"/>
+
+	<ImageButton
+		android:id="@+id/profile_button"
+		android:layout_width="@dimen/home_activity_profile_button_width"
+		android:layout_height="@dimen/home_activity_profile_button_height"
+		android:layout_marginStart="@dimen/home_activity_profile_button_margin_start"
+		android:layout_marginTop="@dimen/home_activity_profile_button_margin_top"
+		android:background="@drawable/home_activity_profile_button_ripple"
+		android:src="@drawable/_011_face_detection"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="12dp"
+		tools:layout_editor_absoluteY="14dp"/>
+</android.support.constraint.ConstraintLayout>

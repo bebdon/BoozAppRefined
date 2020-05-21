@@ -1,0 +1,325 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/club_profile_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/club_profile_activity_club_profile_constraint_layout_background_color">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/club_info_constraint_layout"
+		android:layout_width="325dp"
+		android:layout_height="126dp"
+		android:layout_marginEnd="40dp"
+		android:layout_marginTop="48dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/back_btn_button">
+
+		<ImageView
+			android:id="@+id/club_photo_image_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="232dp"
+			android:scaleType="center"
+			android:src="@mipmap/camel_round"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:srcCompat="@mipmap/camel" />
+
+		<TextView
+			android:id="@+id/the_old_firestation_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/club_profile_activity_the_old_firestation_text_view_margin_top"
+			android:gravity="start"
+			android:text="Camel"
+			android:textColor="@color/club_profile_activity_the_old_firestation_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_the_old_firestation_text_view_text_size"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/info_three_text_view"
+			android:layout_width="112dp"
+			android:layout_height="20dp"
+			android:layout_marginBottom="7dp"
+			android:layout_marginEnd="26dp"
+			android:alpha="0.6"
+			android:gravity="start"
+			android:text="info@test.com"
+			android:textColor="@color/club_profile_activity_info_three_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_info_three_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent" />
+
+		<TextView
+			android:id="@+id/phone_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="19dp"
+			android:alpha="0.6"
+			android:gravity="start"
+			android:text="@string/club_profile_activity_phone_text_view_text"
+			android:textColor="@color/club_profile_activity_phone_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_phone_text_view_text_size"
+			app:layout_constraintBottom_toTopOf="@+id/email_text_view"
+			app:layout_constraintStart_toEndOf="@+id/club_photo_image_view"
+			app:layout_constraintTop_toBottomOf="@+id/address_text_view" />
+
+		<TextView
+			android:id="@+id/info_two_text_view"
+			android:layout_width="120dp"
+			android:layout_height="22dp"
+			android:layout_marginBottom="7dp"
+			android:layout_marginEnd="26dp"
+			android:layout_marginTop="11dp"
+			android:alpha="0.6"
+			android:gravity="end"
+			android:text="+44 1202 554211"
+			android:textColor="@color/club_profile_activity_info_two_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_info_two_text_view_text_size"
+			app:layout_constraintBottom_toTopOf="@+id/info_three_text_view"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/info_text_view" />
+
+		<TextView
+			android:id="@+id/info_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="26dp"
+			android:layout_marginTop="32dp"
+			android:alpha="0.6"
+			android:gravity="start"
+			android:text="BH2 5AA"
+			android:textColor="@color/club_profile_activity_info_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_info_text_view_text_size"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/address_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="19dp"
+			android:layout_marginTop="32dp"
+			android:alpha="0.6"
+			android:gravity="start"
+			android:text="@string/club_profile_activity_address_text_view_text"
+			android:textColor="@color/club_profile_activity_address_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_address_text_view_text_size"
+			app:layout_constraintStart_toEndOf="@+id/club_photo_image_view"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<TextView
+			android:id="@+id/email_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="7dp"
+			android:layout_marginStart="19dp"
+			android:alpha="0.6"
+			android:gravity="start"
+			android:text="@string/club_profile_activity_email_text_view_text"
+			android:textColor="@color/club_profile_activity_email_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_email_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toEndOf="@+id/club_photo_image_view" />
+
+	</android.support.constraint.ConstraintLayout>
+
+	<TextView
+		android:id="@+id/profile_text_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/club_profile_activity_profile_text_view_margin_top"
+		android:gravity="start"
+		android:text="@string/club_profile_activity_profile_text_view_text"
+		android:textColor="@color/club_profile_activity_profile_text_view_text_color"
+		android:textSize="@dimen/club_profile_activity_profile_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="149dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+	<ImageButton
+		android:id="@+id/back_btn_button"
+		android:layout_width="@dimen/club_profile_activity_back_btn_button_width"
+		android:layout_height="@dimen/club_profile_activity_back_btn_button_height"
+		android:layout_marginStart="@dimen/club_profile_activity_back_btn_button_margin_start"
+		android:layout_marginTop="@dimen/club_profile_activity_back_btn_button_margin_top"
+		android:background="?attr/selectableItemBackground"
+		android:src="@drawable/back_btn_2"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="23dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/recent_events_constraint_layout"
+		android:layout_width="@dimen/club_profile_activity_recent_events_constraint_layout_width"
+		android:layout_height="@dimen/club_profile_activity_recent_events_constraint_layout_height"
+		android:layout_marginTop="19dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/amenities_constraint_layout">
+
+		<TextView
+			android:id="@+id/recent_events_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="136dp"
+			android:layout_marginLeft="136dp"
+			android:gravity="start"
+			android:text="@string/club_profile_activity_recent_events_text_view_text"
+			android:textColor="@color/club_profile_activity_recent_events_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_recent_events_text_view_text_size"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<View
+			android:id="@+id/rectangle_constraint_layout"
+			android:layout_width="0dp"
+			android:layout_height="@dimen/club_profile_activity_rectangle_constraint_layout_height"
+			android:layout_marginTop="@dimen/club_profile_activity_rectangle_constraint_layout_margin_top"
+			android:background="@drawable/club_profile_activity_rectangle_constraint_layout_background"
+			app:layout_constraintHorizontal_weight="1"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/recent_events_text_view"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="26dp" />
+	</android.support.constraint.ConstraintLayout>
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/amenities_constraint_layout"
+		android:layout_width="@dimen/club_profile_activity_amenities_constraint_layout_width"
+		android:layout_height="118dp"
+		android:layout_marginTop="24dp"
+		app:layout_constraintBottom_toTopOf="@+id/recent_events_constraint_layout"
+		app:layout_constraintHorizontal_bias="0.504"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/club_info_constraint_layout">
+
+		<ImageView
+			android:id="@+id/imageView14"
+			android:layout_width="53dp"
+			android:layout_height="50dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="@+id/am2_constraint_layout"
+			app:layout_constraintStart_toStartOf="@+id/am2_constraint_layout"
+			app:layout_constraintTop_toTopOf="@+id/am2_constraint_layout"
+			app:srcCompat="@drawable/ic_furniture_and_household" />
+
+		<ImageView
+			android:id="@+id/imageView10"
+			android:layout_width="56dp"
+			android:layout_height="52dp"
+			app:layout_constraintBottom_toBottomOf="@+id/am3_constraint_layout"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="@+id/am3_constraint_layout"
+			app:layout_constraintTop_toTopOf="@+id/am3_constraint_layout"
+			app:srcCompat="@drawable/ic_cocktail" />
+
+		<ImageView
+			android:id="@+id/imageView15"
+			android:layout_width="62dp"
+			android:layout_height="63dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="@+id/am1_constraint_layout"
+			app:layout_constraintStart_toStartOf="@+id/am1_constraint_layout"
+			app:layout_constraintTop_toTopOf="@+id/am1_constraint_layout"
+			app:srcCompat="@drawable/ic_smoking_rooms_black_24dp" />
+
+		<TextView
+			android:id="@+id/amenities_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="start"
+			android:text="@string/club_profile_activity_amenities_text_view_text"
+			android:textColor="@color/club_profile_activity_amenities_text_view_text_color"
+			android:textSize="@dimen/club_profile_activity_amenities_text_view_text_size"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="116dp"
+			tools:layout_editor_absoluteY="0dp" />
+
+		<View
+			android:id="@+id/am2_constraint_layout"
+			android:layout_width="@dimen/club_profile_activity_am2_constraint_layout_width"
+			android:layout_height="@dimen/club_profile_activity_am2_constraint_layout_height"
+			android:layout_marginTop="40dp"
+			android:background="@drawable/amenity_on_foreground"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="@+id/amenities_text_view" />
+
+		<ImageView
+			android:id="@+id/imageView21"
+			android:layout_width="53dp"
+			android:layout_height="50dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="@+id/am2_constraint_layout"
+			app:layout_constraintStart_toStartOf="@+id/am2_constraint_layout"
+			app:layout_constraintTop_toTopOf="@+id/am2_constraint_layout"
+			app:srcCompat="@drawable/ic_furniture_and_household" />
+
+		<View
+			android:id="@+id/am1_constraint_layout"
+			android:layout_width="@dimen/club_profile_activity_am1_constraint_layout_width"
+			android:layout_height="@dimen/club_profile_activity_am1_constraint_layout_height"
+			android:layout_marginTop="@dimen/club_profile_activity_am1_constraint_layout_margin_top"
+			android:background="@drawable/amenity_on_foreground"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<ImageView
+			android:id="@+id/imageView20"
+			android:layout_width="62dp"
+			android:layout_height="63dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="@+id/am1_constraint_layout"
+			app:layout_constraintStart_toStartOf="@+id/am1_constraint_layout"
+			app:layout_constraintTop_toTopOf="@+id/am1_constraint_layout"
+			app:srcCompat="@drawable/ic_smoking_rooms_black_24dp" />
+
+		<View
+			android:id="@+id/am3_constraint_layout"
+			android:layout_width="@dimen/club_profile_activity_am3_constraint_layout_width"
+			android:layout_height="@dimen/club_profile_activity_am3_constraint_layout_height"
+			android:layout_marginTop="@dimen/club_profile_activity_am3_constraint_layout_margin_top"
+			android:background="@drawable/amenity_on_foreground"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<ImageView
+			android:id="@+id/imageView22"
+			android:layout_width="56dp"
+			android:layout_height="52dp"
+			app:layout_constraintBottom_toBottomOf="@+id/am3_constraint_layout"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="@+id/am3_constraint_layout"
+			app:layout_constraintTop_toTopOf="@+id/am3_constraint_layout"
+			app:srcCompat="@drawable/ic_cocktail" />
+	</android.support.constraint.ConstraintLayout>
+
+	<ImageButton
+		android:id="@+id/leave_areview_button"
+		android:layout_width="@dimen/club_profile_activity_leave_areview_button_width"
+		android:layout_height="@dimen/club_profile_activity_leave_areview_button_height"
+		android:layout_marginEnd="@dimen/club_profile_activity_leave_areview_button_margin_end"
+		android:layout_marginTop="@dimen/club_profile_activity_leave_areview_button_margin_top"
+		android:background="?attr/selectableItemBackground"
+		android:src="@drawable/leave_a_review"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="342dp"
+		tools:layout_editor_absoluteY="35dp"/>
+</android.support.constraint.ConstraintLayout>

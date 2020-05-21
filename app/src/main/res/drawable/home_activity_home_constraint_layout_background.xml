@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/home_activity_home_constraint_layout_border_color"
+		android:width="@dimen/home_activity_home_constraint_layout_border_size"/>
+
+	<solid android:color="@color/home_activity_home_constraint_layout_background_color"/>
+</shape>
